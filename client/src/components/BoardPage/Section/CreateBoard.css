@@ -1,0 +1,67 @@
+.createBoard {
+    background-color: #1b1b1b;
+    height: 100vh;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 500px;
+    background-color: #1b1b1b;
+    color: #a5a5a5;
+}
+
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar,
+.ck.ck-editor__top .ck-sticky-panel .ck-toolbar.ck-rounded-corners {
+    border-radius: var(--ck-border-radius);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: rgb(29, 29, 29);
+}
+
+.editorWidth {
+    width: 1240px;
+    margin: auto;
+}
+
+.board__C__main {
+    padding-top: 109px;
+    width: 1240px;
+    margin: 0 auto;
+
+}
+
+.board_top2 {
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(193, 196, 207, 0.3);
+}
+
+.form_wrapper {
+    width: 1240px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #a5a5a5;
+}
+
+
+.title_input {
+    width: 800px;
+    height: 42px;
+    margin-left: 10px;
+    background-color: #1b1b1b;
+    color: #a5a5a5;
+}
+
+
+.create_btn {
+    display: flex;
+}
+
+.create_btn_first {
+    border-right: 1px solid rgba(193, 196, 207, 0.3);
+}

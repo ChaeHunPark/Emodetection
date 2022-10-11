@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Spoqa Han Sans Neo";
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 8px;
+  border-radius: 0;
+  background-color: #a5a5a5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+button:hover{
+  cursor: pointer;
+}
